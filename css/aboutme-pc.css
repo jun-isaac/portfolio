@@ -1,0 +1,536 @@
+header {
+	position: fixed;
+	/* background: #ccc; */
+	width: 100vw;
+	padding: 20px;
+	text-align: center;
+	z-index: 999;
+}
+
+header a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.nav-aboutme:hover {
+	color: #FFFF00;
+}
+
+.nav-introduce:hover {
+	color: #FFFF00;
+}
+
+.nav-ability:hover {
+	color: #FFFF00;
+}
+
+.nav-personalit:hover {
+	color: #FFFF00;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background: #1E3799;
+}
+
+#page-1 {
+	font-size: 80px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/* 자기 소개 영역 */
+
+.box {
+	position: relative;
+	width: 1000px;
+	height: 1746px;
+	margin-top: 1188px;
+	border: 3px solid #FFFFFF;
+	border-radius: 30px;
+}
+
+.hello {
+	position: absolute;
+	left: 55px;
+	top: 120px;
+	font-size: 40px;
+	font-family: 'wolyeonggyo';
+	line-height: 50px;
+}
+
+
+.box .profile-img {
+	position: absolute;
+	top: 284px;
+	left: 55px;
+}
+
+
+.line {
+	position: absolute;
+	width: 614px;
+	height: 1px;
+	top: 285px;
+	left: 331px;
+	background: #fff;
+}
+
+
+.icon {
+	position: absolute;
+	top: 219px;
+	right: 50px;
+}
+
+
+.name {
+	font-family: 'Noto Sans';
+	font-weight: 700;
+	font-size: 30px;
+	position: absolute;
+	left: 402px;
+	top: 310px;
+}
+
+
+.y-line {
+	position: absolute;
+	width: 200px;
+	height: 4px;
+	left: 402px;
+	top: 371px;
+	background: #FFFF00;
+}
+
+
+.my {
+	position: absolute;
+	left: 402px;
+	top: 391px;
+	font-family: 'Noto Sans';
+	font-weight: 500;
+	font-size: 22px;
+}
+
+
+/* ability 영역 */
+
+.ability {
+	position: absolute;
+	left: 55px;
+	top: 930px;
+	font-family: 'Sandoll Press';
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.ability-box {
+	position: absolute;
+	width: 890px;
+	height: 641px;
+	left: 55px;
+	top: 1050px;
+	border: 1px solid #FFFFFF;
+}
+
+.photoshop-box {
+	position: absolute;
+	width: 290px;
+	height: 207px;
+	left: 10px;
+	top: 10px;
+	border: 1px solid #FFFFFF;
+}
+
+.photoshop-icon {
+	position: absolute;
+	left: 45px;
+	top: 27px;
+}
+
+.photoshop-box p {
+	position: absolute;
+	width: 260px;
+	height: 75px;
+	left: 15px;
+	top: 116px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.illustrator-box {
+	position: absolute;
+	width: 289.5px;
+	height: 207px;
+	left: 300px;
+	top: 10px;
+	border: 1px solid #FFFFFF;
+}
+
+.illustrator-box p {
+	position: absolute;
+	width: 260px;
+	height: 75px;
+	left: 15px;
+	top: 116px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.illustrator-icon {
+	position: absolute;
+	left: 45px;
+	top: 27px;
+}
+
+.final-cut-box {
+	position: absolute;
+	width: 290px;
+	height: 207px;
+	right: 10px;
+	top: 10px;
+	border: 1px solid #FFFFFF;
+}
+
+.final-cut-box p {
+	position: absolute;
+	width: 260px;
+	height: 75px;
+	left: 15px;
+	top: 116px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.final-cut-icon {
+	position: absolute;
+	left: 45px;
+	top: 27px;
+}
+
+
+
+
+.figma-box {
+	position: absolute;
+	width: 290px;
+	height: 207px;
+	left: 10px;
+	top: 217px;
+	border: 1px solid #FFFFFF;
+}
+
+.figma-icon {
+	position: absolute;
+	left: 45px;
+	top: 27px;
+}
+
+.figma-box p {
+	position: absolute;
+	width: 260px;
+	height: 75px;
+	left: 15px;
+	top: 116px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.html-box {
+	position: absolute;
+	width: 289.5px;
+	height: 207px;
+	left: 300px;
+	top: 217px;
+	border: 1px solid #FFFFFF;
+}
+
+.html-box p {
+	position: absolute;
+	width: 260px;
+	height: 75px;
+	left: 15px;
+	top: 116px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.html-icon {
+	position: absolute;
+	left: 45px;
+	top: 27px;
+}
+
+.css-box {
+	position: absolute;
+	width: 290px;
+	height: 207px;
+	right: 10px;
+	top: 217px;
+	border: 1px solid #FFFFFF;
+}
+
+.css-box p {
+	position: absolute;
+	width: 260px;
+	height: 75px;
+	left: 15px;
+	top: 116px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.css-icon {
+	position: absolute;
+	left: 45px;
+	top: 27px;
+}
+
+.js-box {
+	position: absolute;
+	width: 290px;
+	height: 207px;
+	left: 10px;
+	bottom: 10px;
+	border: 1px solid #FFFFFF;
+}
+
+.js-box p {
+	position: absolute;
+	width: 260px;
+	height: 75px;
+	left: 15px;
+	top: 116px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.js-icon {
+	position: absolute;
+	left: 45px;
+	top: 27px;
+}
+
+
+/* personality 영역 */
+
+.personality-box {
+	position: relative;
+	width: 1000px;
+	height: 900px;
+	margin: 0 auto;
+	top: 15px;
+	border: 3px solid #FFFFFF;
+	border-radius: 30px;
+}
+
+.personality {
+	position: absolute;
+	left: 55px;
+	top: 100px;
+	font-family: 'Sandoll Press';
+	font-size: 40px;
+}
+
+.mbti {
+	position: absolute;
+	left: 55px;
+	top: 256px;
+	font-family: 'Noto Sans';
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.mgram {
+	position: absolute;
+	left: 483px;
+	top: 256px;
+	font-family: 'Noto Sans';
+	font-weight: 500;
+	font-size: 40px;
+}
+
+.entp {
+	position: absolute;
+	left: 214px;
+	top: 367px;
+	font-family: 'Noto Sans';
+	font-weight: 500;
+	font-size: 30px;
+}
+
+.personality-box p {
+	font-family: 'Noto Sans';
+	font-weight: 500;
+	font-size: 30px;
+}
+
+.e {
+	position: absolute;
+	left: 58px;
+	top: 470px;
+}
+
+.i {
+	position: absolute;
+	left: 433px;
+	top: 470px;
+}
+
+.n {
+	position: absolute;
+	left: 55px;
+	top: 576px;
+}
+
+.s {
+	position: absolute;
+	left: 431px;
+	top: 576px;
+}
+
+.f {
+	position: absolute;
+	left: 430px;
+	top: 682px;
+}
+
+.t {
+	position: absolute;
+	left: 58px;
+	top: 682px;
+}
+
+.p {
+	position: absolute;
+	left: 428px;
+	top: 788px;
+}
+
+.j {
+	position: absolute;
+	left: 63px;
+	top: 788px;
+}
+
+.mgram-img {
+	position: absolute;
+	right: 52px;
+	bottom: 71px;
+}
+
+.mbti-bar1 {
+	position: absolute;
+	width: 330px;
+	height: 30px;
+	left: 90px;
+	top: 476px;
+	border: 2px solid #FFFFFF;
+	border-radius: 50px;
+}
+
+.e-bar {
+	position: absolute;
+	width: 188.65px;
+	height: 30px;
+	left: 90px;
+	top: 476px;
+
+	background: #FFFFFF;
+	border-radius: 50px 0px 0px 50px;
+}
+
+.mbti-bar2 {
+	position: absolute;
+	width: 330px;
+	height: 30px;
+	left: 90px;
+	top: 582px;
+	border: 2px solid #FFFFFF;
+	border-radius: 50px;
+}
+
+.n-bar {
+	position: absolute;
+	width: 232.72px;
+	height: 30px;
+	left: 90px;
+	top: 582px;
+
+	background: #FFFFFF;
+	border-radius: 50px 0px 0px 50px;
+}
+
+.mbti-bar3 {
+	position: absolute;
+	width: 330px;
+	height: 30px;
+	left: 90px;
+	top: 688px;
+	border: 2px solid #FFFFFF;
+	border-radius: 50px;
+}
+
+.f-bar {
+	position: absolute;
+	width: 283.78px;
+	height: 30px;
+	left: 136px;
+	top: 688px;
+	background: #FFFFFF;
+	border-radius: 0px 50px 50px 0px;
+}
+
+.mbti-bar4 {
+	position: absolute;
+	width: 330px;
+	height: 30px;
+	left: 90px;
+	top: 794px;
+	border: 2px solid #FFFFFF;
+	border-radius: 50px;
+}
+
+.p-bar {
+	position: absolute;
+	width: 174.67px;
+	height: 30px;
+	left: 245px;
+	top: 794px;
+	background: #FFFFFF;
+	border-radius: 0px 50px 50px 0px;
+}

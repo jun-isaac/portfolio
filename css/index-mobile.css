@@ -1,0 +1,61 @@
+
+/* index 메뉴 */
+
+#home {
+	height: 844px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div {
+	/* outline: 2px solid red; */
+}
+
+.menu-box {
+	width: 300px;
+	height: 580px;
+	/* outline: 2px solid red; */
+	position: relative;
+}
+
+.menu-box .row div {
+	margin-bottom: 20px;
+	width: 300px;
+	height: 80px;
+	/* outline: 2px solid red; */
+}
+
+
+.aboutme {
+	background: #1E3799;
+}
+
+.personal {
+	background: #7B7B7B;
+}
+
+.finalcut {
+	background: #FA983A;
+}
+
+.team {
+	background: #6A89CC;
+}
+
+.photoshop {
+	background: #E2E2E2;
+}
+
+.blog {
+	background: #FAD390;
+}
+
+h1 {
+	position: absolute;
+	right: 2px;
+	bottom: -50px;
+	font-weight: 900;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+}
