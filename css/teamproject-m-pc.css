@@ -1,0 +1,101 @@
+header {
+	position: fixed;
+	/* background: #ccc; */
+	width: 100vw;
+	padding: 20px;
+	text-align: center;
+	z-index: 999;
+}
+
+header a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#menu {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-aboutme:hover {
+	color: #FFFF00;
+}
+
+.nav-introduce:hover {
+	color: #FFFF00;
+}
+
+.nav-ability:hover {
+	color: #FFFF00;
+}
+
+.nav-personalit:hover {
+	color: #FFFF00;
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background: #6A89CC;
+}
+
+#title h1 {
+	font-size: 100px;
+	font-family: 'Sandoll Press';
+	text-align: center;
+	line-height: 130px;
+}
+
+#title h1 span {
+	font-size: 70px;
+}
+
+.home-btn {
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	position: fixed;
+	right: 120px;
+	bottom: 60px;
+	z-index: 99;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.git-btn {
+	position: absolute;
+	width: 260px;
+	height: 73px;
+	border: 2px solid #FFFFFF;
+	border-radius: 50px;
+
+	font-family: 'Noto Sans';
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 33px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* Introduce 영역 */
+
+#introduce-m {
+	position: relative;
+}
+
+.introduce {
+	position: absolute;
+	top: 141px;
+	left: 184px;
+	font-family: 'Sandoll Press';
+	font-size: 40px;
+}
