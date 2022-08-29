@@ -19,21 +19,10 @@ header a {
 	justify-content: center;
 }
 
-.nav-aboutme:hover {
+#menu li a:hover {
 	color: #FFFF00;
 }
 
-.nav-introduce:hover {
-	color: #FFFF00;
-}
-
-.nav-ability:hover {
-	color: #FFFF00;
-}
-
-.nav-personalit:hover {
-	color: #FFFF00;
-}
 
 .section {
 	display: flex;
@@ -68,7 +57,7 @@ header a {
 	align-items: center;
 }
 
-.git-btn {
+#git-btn {
 	position: absolute;
 	width: 260px;
 	height: 73px;
@@ -88,8 +77,11 @@ header a {
 
 /* Introduce 영역 */
 
-#introduce-m {
+.introduce-box {
 	position: relative;
+	margin: 0 auto;
+	height: 100vh;
+	width: 1440px;
 }
 
 .introduce {
@@ -98,4 +90,200 @@ header a {
 	left: 184px;
 	font-family: 'Sandoll Press';
 	font-size: 40px;
+}
+
+.m-iphone {
+	position: absolute;
+	top: 286px;
+	left: 298px;
+}
+
+#introduce-m p {
+	position: absolute;
+	width: 450px;
+	left: 693px;
+	top: 286px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 33px;
+}
+
+.git-btn1 {
+	position: absolute;
+	left: 693px;
+	top: 726px;
+}
+
+/* sitemap 영역 */
+
+.sitemap-box {
+	position: relative;
+	margin: 0 auto;
+	height: 100vh;
+	width: 1440px;
+}
+
+.sitemap {
+	position: absolute;
+	top: 146px;
+	left: 184px;
+	font-family: 'Sandoll Press';
+	font-size: 40px;
+}
+
+.m-imac {
+	position: absolute;
+	left: 261px;
+	top: 41px;
+}
+
+/* figma 영역 */
+
+.figma-box {
+	position: relative;
+	margin: 0 auto;
+	height: 3072px;
+	width: 1440px;
+}
+
+.figma {
+	position: absolute;
+	top: 146px;
+	left: 184px;
+	font-family: 'Sandoll Press';
+	font-size: 40px;
+}
+
+.figma1 {
+	position: absolute;
+	width: 300px;
+	height: 1194.69px;
+	left: 184px;
+	top: 290px;
+}
+
+.figma2 {
+	position: absolute;
+	width: 300px;
+	height: 1313.6px;
+	left: 570px;
+	top: 290px;
+}
+
+.figma3 {
+	position: absolute;
+	width: 300px;
+	height: 1008px;
+	left: 956px;
+	top: 290px;
+}
+
+.figma4 {
+	position: absolute;
+	width: 300px;
+	height: 533.6px;
+	left: 184px;
+	top: 1555px;
+}
+
+.figma5 {
+	position: absolute;
+	width: 300px;
+	height: 533.6px;
+	left: 570px;
+	top: 1674px;
+}
+
+.figma6 {
+	position: absolute;
+	width: 300px;
+	height: 1616px;
+	left: 956px;
+	top: 1368px;
+}
+
+.figma7 {
+	position: absolute;
+	width: 300px;
+	height: 533.6px;
+	left: 184px;
+	top: 2159px;
+}
+
+.figma8 {
+	position: absolute;
+	width: 300px;
+	height: 160.57px;
+	left: 184px;
+	top: 2763px;
+}
+
+.figma9 {
+	position: absolute;
+	width: 300px;
+	height: 533.6px;
+	left: 570px;
+	top: 2278px;
+}
+
+/* Responsive Project 영역 */
+
+#responsive-project h1 {
+	font-size: 100px;
+	font-family: 'Sandoll Press';
+	text-align: center;
+	line-height: 130px;
+}
+
+#responsive-project h1 span {
+	font-size: 70px;
+}
+
+
+/* Introduce 영역 */
+
+.introduce-r-box {
+	position: relative;
+	margin: 0 auto;
+	height: 100vh;
+	width: 1440px;
+}
+
+.introduce-r {
+	position: absolute;
+	left: 178px;
+	top: 176px;
+	font-family: 'Sandoll Press';
+	font-size: 40px;
+}
+
+.r-imac {
+	position: absolute;
+	left: 160px;
+	top: 153px;
+}
+
+.r-iphone {
+	position: absolute;
+	left: 160px;
+	top: 624px;
+}
+
+.introduce-r-box p {
+	position: absolute;
+	width: 380px;
+	left: 900px;
+	top: 321px;
+	font-family: 'Noto Sans';
+	font-size: 24px;
+
+}
+
+.git-btn2 {
+	position: absolute;
+	left: 900px;
+	top: 778px;
 }

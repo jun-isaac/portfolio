@@ -19,19 +19,7 @@ header a {
 	justify-content: center;
 }
 
-.nav-aboutme:hover {
-	color: #FFFF00;
-}
-
-.nav-introduce:hover {
-	color: #FFFF00;
-}
-
-.nav-ability:hover {
-	color: #FFFF00;
-}
-
-.nav-personalit:hover {
+#menu li a:hover {
 	color: #FFFF00;
 }
 

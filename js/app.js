@@ -1,3 +1,4 @@
+// 풀 스크린
 $(document).ready(function () {
   
   $('#fullpage').fullpage({
@@ -9,4 +10,5 @@ $(document).ready(function () {
 
 });
 
+// aos 라이브러리
 AOS.init();

@@ -27,10 +27,10 @@
 		<ul id="menu">
 			<li data-menuanchor="firstPage" class="active"><a class="nav-aboutme" href="#firstPage">Mobile Project</a></li>
 			<li data-menuanchor="secondPage"><a class="nav-introduce" href="#secondPage">Introduce</a></li>
-			<li data-menuanchor="thirdPage"><a class="nav-personalit" href="#thirdPage">Site Map</a></li>
-			<li data-menuanchor="forthPage"><a class="nav-personalit" href="#forthPage">Figma</a></li>
-			<li data-menuanchor="fifthPage"><a class="nav-personalit" href="#fifthPage">Responsive Project</a></li>
-			<li data-menuanchor="sixthPage"><a class="nav-personalit" href="#sixthPage">Introduce</a></li>
+			<li data-menuanchor="thirdPage"><a class="nav-sitemap" href="#thirdPage">Site Map</a></li>
+			<li data-menuanchor="forthPage"><a class="nav-figma" href="#forthPage">Figma</a></li>
+			<li data-menuanchor="fifthPage"><a class="nav-responsiveproject" href="#fifthPage">Responsive Project</a></li>
+			<li data-menuanchor="sixthPage"><a class="nav-introduce" href="#sixthPage">Introduce</a></li>
 		</ul>
 	</header>
 
@@ -47,43 +47,82 @@
 		</div>
 
 		<div class="section" id="introduce-m">
-			<h2 class="introduce">Introduce</h2>
-			<img src="../images/m-iphone.png" alt="m-iphone">
-			<p>Lorem ipsum dolor sit amet,
-				consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
-			<a class="git-btn" href="#">Git hub 바로가기</a>
+			<div class="introduce-box">
+				<h2 class="introduce">Introduce</h2>
+				<img class="m-iphone" src="../images/m-iphone.png" alt="m-iphone">
+				<p>Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna,
+					porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+					nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam
+					viverra</p>
+				<a id="git-btn" class="git-btn1" href="#">Git hub 바로가기</a>
+			</div>
+			<!-- introduce-box -->
 		</div>
 		<!-- introduce-m -->
 
 		<div class="section" id="site-map">
+			<div class="sitemap-box">
+				<h2 class="sitemap">Sitemap</h2>
+				<img class="m-imac" src="../images/m-imac.png" alt="m-imac">
+			</div>
+			<!-- sitemap-box -->
 		</div>
 		<!-- mobile -->
 
-		<div class="section" id="figma">
+		<div class="section fp-auto-heigh fp-auto-height-responsive" id="figma">
+			<div class="figma-box">
+				<h2 class="figma">figma</h2>
+				<img class="figma1" src="../images/figma1.png" alt="figma1">
+				<img class="figma2" src="../images/figma2.png" alt="figma2">
+				<img class="figma3" src="../images/figma3.png" alt="figma3">
+				<img class="figma4" src="../images/figma4.png" alt="figma4">
+				<img class="figma5" src="../images/figma5.png" alt="figma5">
+				<img class="figma6" src="../images/figma6.png" alt="figma6">
+				<img class="figma7" src="../images/figma7.png" alt="figma7">
+				<img class="figma8" src="../images/figma8.png" alt="figma8">
+				<img class="figma9" src="../images/figma9.png" alt="figma9">
+			</div>
+			<!-- figma-box -->
 		</div>
 		<!-- figma -->
 
 		<div class="section" id="responsive-project">
+				<h1>Team Project <br>
+					<span>(Responsive)</span>
+				</h1>
 		</div>
 		<!-- responsive-project -->
-		
+
 		<div class="section" id="introduce-r">
+			<div class="introduce-r-box">
+				<h2 class="introduce-r">introduce</h2>
+				<img class="r-imac" src="../images/r-imac.png" alt="r-imac">
+				<img class="r-iphone" src="../images/r-iphone.png" alt="r-iphone">
+				<p>Lorem ipsum dolor sit amet,
+					consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna,
+					porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget
+					nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam
+					viverra</p>
+				<a id="git-btn" class="git-btn2" href="#">Git hub 바로가기</a>
+			</div>
+			<!-- sitemap-box -->
 		</div>
 		<!-- introduce-r -->
 
 	</div>
 	<!-- fullpage -->
 
-		<!-- partial -->
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-		<!-- overflowScroll 플러그인 -->
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.js'></script>
-		<!-- fullpage -->
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js'></script>
-		<!-- AOS -->
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<!-- 내 자바스크립트 -->
-		<script src="../js/app.js"></script>
+	<!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<!-- overflowScroll 플러그인 -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.js'></script>
+	<!-- fullpage -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js'></script>
+	<!-- AOS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- 내 자바스크립트 -->
+	<script src="../js/app.js"></script>
 </body>
 
 </html>
