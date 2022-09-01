@@ -1,0 +1,217 @@
+header {
+	position: fixed;
+	/* background: #ccc; */
+	width: 100vw;
+	padding: 20px;
+	text-align: center;
+	z-index: 999;
+}
+
+header a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#menu {
+	display: flex;
+	justify-content: center;
+}
+
+#menu li a:hover {
+	color: #FFFF00;
+}
+
+
+.section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	background: #7B7B7B;
+}
+
+#title h1 {
+	font-size: 100px;
+	font-family: 'Sandoll Press';
+	text-align: center;
+	line-height: 130px;
+}
+
+#title h1 span {
+	font-size: 70px;
+}
+
+.home-btn {
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	position: fixed;
+	right: 120px;
+	bottom: 60px;
+	z-index: 99;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#git-btn {
+	position: absolute;
+	width: 260px;
+	height: 73px;
+	border: 2px solid #FFFFFF;
+	border-radius: 50px;
+
+	font-family: 'Noto Sans';
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 33px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* Introduce 영역 */
+
+.introduce-box {
+	position: relative;
+	margin: 0 auto;
+	height: 100vh;
+	width: 1440px;
+}
+
+.introduce {
+	position: absolute;
+	top: 141px;
+	left: 184px;
+	font-family: 'Sandoll Press';
+	font-size: 40px;
+}
+
+.i-imac {
+	position: absolute;
+	top: 152px;
+	left: 160px;
+}
+
+.introduce-box p {
+	position: absolute;
+	width: 450px;
+	left: 900px;
+	top: 327px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 33px;
+}
+
+.git-btn1 {
+	position: absolute;
+	left: 900px;
+	top: 784px;
+}
+
+
+/* sitemap 영역 */
+
+.draft-box {
+	position: relative;
+	margin: 0 auto;
+	height: 2048px;
+	width: 1440px;
+}
+
+.p-draft {
+	position: absolute;
+	top: 140px;
+	left: 160px;
+	font-family: 'Sandoll Press';
+	font-size: 40px;
+}
+
+.finish {
+	position: absolute;
+	top: 146px;
+	left: 768px;
+	font-family: 'Sandoll Press';
+	font-size: 40px;
+}
+
+.p-draft-img {
+	position: absolute;
+	left: 160px;
+	top: 243px;
+}
+
+.finish-img {
+	position: absolute;
+	left: 748px;
+	top: 243px;
+}
+
+
+/* chrome-clone 영역 */
+
+#chrome-clone {
+	position: relative;
+	margin: 0 auto;
+	height: 100vh;
+}
+
+#chrome-clone h1 {
+	font-size: 100px;
+	font-family: 'Sandoll Press';
+	text-align: center;
+	line-height: 130px;
+}
+
+#chrome-clone h1 span {
+	font-size: 70px;
+}
+
+
+
+/* Introduce 영역 */
+
+.introduce-c-box {
+	position: relative;
+	margin: 0 auto;
+	height: 100vh;
+	width: 1440px;
+}
+
+.introduce-c {
+	position: absolute;
+	left: 178px;
+	top: 182px;
+	font-family: 'Sandoll Press';
+	font-size: 40px;
+}
+
+.c-imac {
+	position: absolute;
+	left: 160px;
+	top: 152px;
+}
+
+
+.introduce-c-box p {
+	position: absolute;
+	width: 380px;
+	left: 900px;
+	top: 306px;
+	font-family: 'Noto Sans';
+	font-size: 24px;
+}
+
+.git-btn2 {
+	position: absolute;
+	left: 900px;
+	top: 784px;
+}

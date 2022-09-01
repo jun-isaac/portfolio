@@ -1,0 +1,186 @@
+header {
+	position: fixed;
+	/* background: #ccc; */
+	width: 100vw;
+	padding: 20px;
+	text-align: center;
+	z-index: 999;
+}
+
+header a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#menu {
+	display: none;
+}
+
+/* #menu li a:hover {
+	color: #FFFF00;
+} */
+
+
+.section {
+	width: 390px;
+	height: 844px;
+	color: #fff;
+	background: #6A89CC;
+}
+
+#title h1 {
+	font-size: 30px;
+	font-family: 'Sandoll Press';
+	text-align: center;
+}
+
+#title h1 span {
+	font-size: 24px;
+}
+
+.home-btn {
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	position: fixed;
+	right: 20px;
+	bottom: 30px;
+	z-index: 99;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#git-btn {
+	position: absolute;
+	width: 260px;
+	height: 73px;
+	border: 2px solid #FFFFFF;
+	border-radius: 50px;
+
+	font-family: 'Noto Sans';
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 33px;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* Introduce 영역 */
+
+.introduce-box {
+	position: relative;
+	margin: 0 auto;
+	height: 100vh;
+	width: 390px;
+}
+
+.introduce {
+	position: absolute;
+	top: 165px;
+	left: 30px;
+	font-family: 'Sandoll Press';
+	font-size: 24px;
+}
+
+.m-iphone {
+	position: absolute;
+	width: 150px;
+	top: 252px;
+	left: 28px;
+}
+
+#introduce-m p {
+	position: absolute;
+	width: 160px;
+	left: 208px;
+	top: 252px;
+
+	font-family: 'Noto Sans';
+	font-size: 14px;
+	line-height: 19.07px;
+}
+
+.git-btn1 {
+	position: absolute;
+	left: 65px;
+	top: 627px;
+}
+
+/* sitemap 영역 */
+
+#site-map {
+	display: none;
+}
+
+/* figma 영역 */
+
+#figma {
+	display: none;
+}
+
+/* Responsive Project 영역 */
+
+#responsive-project h1 {
+	font-size: 30px;
+	font-family: 'Sandoll Press';
+	text-align: center;
+}
+
+#responsive-project h1 span {
+	font-size: 24px;
+}
+
+
+/* Introduce 영역 */
+
+.introduce-r-box {
+	position: relative;
+	margin: 0 auto;
+	height: 100vh;
+	width: 390px;
+}
+
+.introduce-r {
+	position: absolute;
+	left: 30px;
+	top: 103px;
+	font-family: 'Sandoll Press';
+	font-size: 24px;
+}
+
+.r-imac {
+	position: absolute;
+	width: 300px;
+	left: 45px;
+	top: 122px;
+}
+
+.r-iphone {
+	position: absolute;
+	width: 70.31px;
+	left: 30px;
+	top: 290px;
+}
+
+.introduce-r-box p {
+	position: absolute;
+	width: 330px;
+	left: 30px;
+	top: 471px;
+	font-family: 'Noto Sans';
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.git-btn2 {
+	position: absolute;
+	left: 65px;
+	top: 667px;
+}

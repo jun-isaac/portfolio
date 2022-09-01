@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>teamproject-mobile</title>
+	<title>personal-project</title>
 	<!-- AOS -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="screen and (max-width: 500px)">
 	<!-- font -->
@@ -17,20 +17,19 @@
 	<!-- reset.css(공통) -->
 	<link rel="stylesheet" href="../css/reset.css">
 	<!-- mobile.css: 390px까지 (모바일) -->
-	<link rel="stylesheet" href="../css/teamproject-m-mobile.css" media="screen and (max-width: 390px)">
+	<link rel="stylesheet" href="../css/personal-project-mobile.css" media="screen and (max-width: 390px)">
 	<!-- pc.css: 391px 부터 (큰 화면) - Breakpoint(중단점) -->
-	<link rel="stylesheet" href="../css/teamproject-m-pc.css" media="screen and (min-width: 391px)">
+	<link rel="stylesheet" href="../css/personal-project-pc.css" media="screen and (min-width: 391px)">
 </head>
 
 <body>
 	<header>
 		<ul id="menu">
-			<li data-menuanchor="firstPage" class="active"><a class="nav-aboutme" href="#firstPage">Mobile Project</a></li>
+			<li data-menuanchor="firstPage" class="active"><a class="nav-aboutme" href="#firstPage">Inseed Homepage</a></li>
 			<li data-menuanchor="secondPage"><a class="nav-introduce" href="#secondPage">Introduce</a></li>
-			<li data-menuanchor="thirdPage"><a class="nav-sitemap" href="#thirdPage">Site Map</a></li>
-			<li data-menuanchor="fourthPage"><a class="nav-figma" href="#fourthPage">Figma</a></li>
-			<li data-menuanchor="fifthPage"><a class="nav-responsiveproject" href="#fifthPage">Responsive Project</a></li>
-			<li data-menuanchor="sixthPage"><a class="nav-introduce" href="#sixthPage">Introduce</a></li>
+			<li data-menuanchor="thirdPage"><a class="nav-sitemap" href="#thirdPage">Draft</a></li>
+			<li data-menuanchor="fourthPage"><a class="nav-figma" href="#fourthPage">Chrom Clone</a></li>
+			<li data-menuanchor="fifthPage"><a class="nav-responsiveproject" href="#fifthPage">Introduce</a></li>
 		</ul>
 	</header>
 
@@ -39,18 +38,19 @@
 			<img src="../images/home-icon.png" alt="home-icon">
 		</div>
 	</a>
-	
-	<div id="fullpage" class="teamproject-mobile">
+
+	<div id="fullpage" class="inseed-homepage">
 		<div class="section" id="title">
-			<h1>Team Project <br>
-				<span>(Mobile)</span>
+			<h1>Personal Project<br>
+				<span>(Inseed Homepage)</span>
 			</h1>
 		</div>
+		<!-- title -->
 
-		<div class="section" id="introduce-m">
+		<div class="section" id="introduce">
 			<div class="introduce-box" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
 				<h2 class="introduce">Introduce</h2>
-				<img class="m-iphone" src="../images/m-iphone.png" alt="m-iphone">
+				<img class="i-imac" src="../images/i-imac.png" alt="i-imac">
 				<p>Lorem ipsum dolor sit amet,
 					consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna,
 					porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget
@@ -60,46 +60,30 @@
 			</div>
 			<!-- introduce-box -->
 		</div>
-		<!-- introduce-m -->
+		<!-- introduce -->
 
-		<div class="section" id="site-map">
-			<div class="sitemap-box" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-				<h2 class="sitemap">Sitemap</h2>
-				<img class="m-imac" src="../images/m-imac.png" alt="m-imac">
+		<div class="section fp-auto-heigh fp-auto-height-responsive" id="draft">
+			<div class="draft-box" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+				<h2 class="p-draft">Photoshop 시안</h2>
+				<h2 class="finish">완성 페이지</h2>
+				<img class="p-draft-img" src="../images/p-draft.png" alt="p-draft">
+				<img class="finish-img" src="../images/finish.png" alt="finish">
 			</div>
-			<!-- sitemap-box -->
+			<!-- draft-box -->
 		</div>
-		<!-- mobile -->
+		<!-- draft -->
 
-		<div class="section fp-auto-heigh fp-auto-height-responsive" id="figma">
-			<div class="figma-box">
-				<h2 class="figma">figma</h2>
-				<img class="figma1" src="../images/figma1.png" alt="figma1">
-				<img class="figma2" src="../images/figma2.png" alt="figma2">
-				<img class="figma3" src="../images/figma3.png" alt="figma3">
-				<img class="figma4" src="../images/figma4.png" alt="figma4">
-				<img class="figma5" src="../images/figma5.png" alt="figma5">
-				<img class="figma6" src="../images/figma6.png" alt="figma6">
-				<img class="figma7" src="../images/figma7.png" alt="figma7">
-				<img class="figma8" src="../images/figma8.png" alt="figma8">
-				<img class="figma9" src="../images/figma9.png" alt="figma9">
-			</div>
-			<!-- figma-box -->
-		</div>
-		<!-- figma -->
-
-		<div class="section" id="responsive-project">
-				<h1>Team Project <br>
-					<span>(Responsive)</span>
+		<div class="section" id="chrome-clone">
+				<h1>Personal Project<br>
+					<span>(chrome-clone)</span>
 				</h1>
 		</div>
-		<!-- responsive-project -->
+		<!-- chrome-clone -->
 
-		<div class="section" id="introduce-r">
-			<div class="introduce-r-box" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-				<h2 class="introduce-r">introduce</h2>
-				<img class="r-imac" src="../images/r-imac.png" alt="r-imac">
-				<img class="r-iphone" src="../images/r-iphone.png" alt="r-iphone">
+		<div class="section" id="introduce">
+			<div class="introduce-c-box" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+				<h2 class="introduce-c">introduce</h2>
+				<img class="c-imac" src="../images/c-imac.png" alt="c-imac">
 				<p>Lorem ipsum dolor sit amet,
 					consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna,
 					porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget
@@ -107,9 +91,9 @@
 					viverra</p>
 				<a id="git-btn" class="git-btn2" href="#">Git hub 바로가기</a>
 			</div>
-			<!-- sitemap-box -->
+			<!-- introduce-c-box -->
 		</div>
-		<!-- introduce-r -->
+		<!-- introduce -->
 
 	</div>
 	<!-- fullpage -->
