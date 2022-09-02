@@ -1,4 +1,3 @@
-
 /* index 메뉴 */
 
 .container {
@@ -40,29 +39,108 @@ div {
 	/* outline: 2px solid red; */
 }
 
+.menu-box .row div p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	font-size: 45px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 350px;
+}
+
 
 .aboutme {
 	background: #1E3799;
+}
+
+.aboutme p {
+	color: yellow;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.aboutme p:hover {
+	color: #fff;
+	opacity: 1;
 }
 
 .personal {
 	background: #7B7B7B;
 }
 
+.personal p {
+	color: yellow;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.personal p:hover {
+	color: #fff;
+	opacity: 1;
+}
+
 .finalcut {
 	background: #FA983A;
+}
+
+.finalcut p {
+	color: blue;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.finalcut p:hover {
+	color: black;
+	opacity: 1;
 }
 
 .team {
 	background: #6A89CC;
 }
 
+.team p {
+	color: yellow;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.team p:hover {
+	color: #fff;
+	opacity: 1;
+}
+
 .adobe {
 	background: #E2E2E2;
 }
 
+.adobe p {
+	color: blue;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.adobe p:hover {
+	color: black;
+	opacity: 1;
+}
+
+
 .blog {
 	background: #FAD390;
+}
+
+.blog p {
+	color: blue;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.blog p:hover {
+	color: black;
+	opacity: 1;
 }
 
 h1 {

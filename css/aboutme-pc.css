@@ -166,13 +166,12 @@ header a {
 	width: 260px;
 	height: 75px;
 	left: 15px;
-	top: 116px;
+	top: 130px;
 
 	font-family: 'Noto Sans';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 25px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .illustrator-box {
@@ -189,13 +188,13 @@ header a {
 	width: 260px;
 	height: 75px;
 	left: 15px;
-	top: 116px;
+	top: 130px;
 
 	font-family: 'Noto Sans';
 	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 25px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .illustrator-icon {
@@ -218,13 +217,13 @@ header a {
 	width: 260px;
 	height: 75px;
 	left: 15px;
-	top: 116px;
+	top: 130px;
 
 	font-family: 'Noto Sans';
 	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 25px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .final-cut-icon {
@@ -256,13 +255,13 @@ header a {
 	width: 260px;
 	height: 75px;
 	left: 15px;
-	top: 116px;
+	top: 130px;
 
 	font-family: 'Noto Sans';
 	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 25px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .html-box {
@@ -279,13 +278,13 @@ header a {
 	width: 260px;
 	height: 75px;
 	left: 15px;
-	top: 116px;
+	top: 130px;
 
 	font-family: 'Noto Sans';
 	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 25px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .html-icon {
@@ -308,13 +307,13 @@ header a {
 	width: 260px;
 	height: 75px;
 	left: 15px;
-	top: 116px;
+	top: 130px;
 
 	font-family: 'Noto Sans';
 	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 25px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .css-icon {
@@ -337,13 +336,13 @@ header a {
 	width: 260px;
 	height: 75px;
 	left: 15px;
-	top: 116px;
+	top: 130px;
 
 	font-family: 'Noto Sans';
 	font-style: normal;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 25px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 }
 
 .js-icon {
@@ -352,6 +351,51 @@ header a {
 	top: 27px;
 }
 
+
+/* ability 차트 영역 */
+
+.chart {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+	top: 16px;
+	right: 45px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+span.center {
+  background: #1E3799;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+	font-family: 'Poppins', sans-serif;
+	/* 가운데 위 */
+}
+
+.ability-btn {
+	background: #1E3799;
+	color: #fff;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	padding: 5px 20px;
+	border: none;
+
+	position: absolute;
+	right: 0;
+	top: -40px;
+}
 
 /* personality 영역 */
 
