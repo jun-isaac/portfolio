@@ -33,7 +33,7 @@ header a {
 
 #title h1 {
 	font-size: 100px;
-	font-family: 'Sandoll Press';
+	font-family: 'Poppins', sans-serif;
 	text-align: center;
 }
 
@@ -132,7 +132,7 @@ header a {
 	position: absolute;
 	left: 55px;
 	top: 930px;
-	font-family: 'Sandoll Press';
+	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 40px;
 }
@@ -369,7 +369,7 @@ header a {
 	position: absolute;
 	left: 55px;
 	top: 100px;
-	font-family: 'Sandoll Press';
+	font-family: 'Poppins', sans-serif;
 	font-size: 40px;
 }
 

@@ -104,6 +104,34 @@ https://jun-isaac.github.io/portfolio/
 * html 클래스 이름과 js에서 설정한 이름이 달라서 동작하지 않았었음
 
 
+### 🔨 모바일 하단 div AOS 이슈
+
+<img src="images/scroll-issue.gif" width="300">
+
+* 가장 하단에 있는 div에 AOS 기능을 추가했을때 빠르게 스크롤을 내리면 하단에 공백이 생긴다.
+
+
+### 🔨 해결
+
+<img src="images/scroll-fix.jpg" width="300">
+
+* 하단 div에 AOS 기능을 주면 그 동작을 하는 동안 빈 공백이 생긴다. <br>
+그렇다면 div에 주는 것이 아니라 내부 요소들에 일일히 준다면 어떻게 될까? 싶어서 적용해보았더니 해결이 되었다.
+<br>
+이 방법으로 하면 해결이 되지만 코드가 좀 길어지게 되어서 조금 더 깔끔한 방법이 있지 않을까? <br>
+조금 더 생각해 볼 필요가 있어 보인다.
+
+### 🔨 수정 전 코드
+<img src="images/scroll-issue.jpg" width="850">
+
+ * div 전체에 AOS 기능을 넣었다.
+
+
+### 🔨 수정 후 코드
+<img src="images/scroll-fix.jpg" width="850">
+
+* div 내부 요소들에 AOS 기능을 넣었다.
+
 ## 사용 라이브러리
 |jQuery|AOS|
 |---|---|
