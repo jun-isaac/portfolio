@@ -54,99 +54,225 @@ div {
 
 .aboutme {
 	background: #1E3799;
+	position: relative;
+	overflow: hidden;
+}
+
+.aboutme::before {
+	content: "";
+	display: block;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160%;
+	height: 100%;
+	transform-origin: right top;
+	transform: skewX(-30deg) scaleX(0);
+	transition: transform 0.4s;
+}
+.aboutme:hover::before {
+	transform-origin: left top;
+	transform: skewX(-30deg) scaleX(1);
 }
 
 .aboutme p {
-	color: yellow;
-	opacity: 0;
-	transition: 0.4s;
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
 }
 
 .aboutme p:hover {
-	color: #fff;
+	color: #1E3799;
 	opacity: 1;
 }
 
+
 .personal {
 	background: #7B7B7B;
+	position: relative;
+	overflow: hidden;
+}
+
+.personal::before {
+	content: "";
+	display: block;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160%;
+	height: 100%;
+	transform-origin: right top;
+	transform: skewX(-30deg) scaleX(0);
+	transition: transform 0.4s;
+}
+
+.personal:hover::before {
+	transform-origin: left top;
+	transform: skewX(-30deg) scaleX(1);
 }
 
 .personal p {
-	color: yellow;
-	opacity: 0;
-	transition: 0.4s;
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
 }
 
 .personal p:hover {
-	color: #fff;
+	color: #7B7B7B;
 	opacity: 1;
 }
 
 .finalcut {
 	background: #FA983A;
+	position: relative;
+	overflow: hidden;
+}
+
+.finalcut::before {
+	content: "";
+	display: block;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160%;
+	height: 100%;
+	transform-origin: right top;
+	transform: skewX(-30deg) scaleX(0);
+	transition: transform 0.4s;
+}
+
+.finalcut:hover::before {
+	transform-origin: left top;
+	transform: skewX(-30deg) scaleX(1);
 }
 
 .finalcut p {
-	color: blue;
-	opacity: 0;
-	transition: 0.4s;
+	color: black;
+	position: relative;
+	z-index: 1;
 }
 
 .finalcut p:hover {
-	color: black;
+	color: #FA983A;
 	opacity: 1;
 }
 
 .team {
 	background: #6A89CC;
+	position: relative;
+	overflow: hidden;
+}
+
+.team::before {
+	content: "";
+	display: block;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160%;
+	height: 100%;
+	transform-origin: right top;
+	transform: skewX(-30deg) scaleX(0);
+	transition: transform 0.4s;
+}
+
+.team:hover::before {
+	transform-origin: left top;
+	transform: skewX(-30deg) scaleX(1);
 }
 
 .team p {
-	color: yellow;
-	opacity: 0;
-	transition: 0.4s;
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
 }
 
 .team p:hover {
-	color: #fff;
+	color: #6A89CC;
 	opacity: 1;
 }
 
 .adobe {
-	background: #E2E2E2;
+	background: #ccc;
+	position: relative;
+	overflow: hidden;
+}
+
+.adobe::before {
+	content: "";
+	display: block;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160%;
+	height: 100%;
+	transform-origin: right top;
+	transform: skewX(-30deg) scaleX(0);
+	transition: transform 0.4s;
+}
+
+.adobe:hover::before {
+	transform-origin: left top;
+	transform: skewX(-30deg) scaleX(1);
 }
 
 .adobe p {
-	color: blue;
-	opacity: 0;
-	transition: 0.4s;
+	color: black;
+	position: relative;
+	z-index: 1;
 }
 
 .adobe p:hover {
-	color: black;
+	color: #888888;
 	opacity: 1;
 }
 
 
 .blog {
 	background: #FAD390;
+	position: relative;
+	overflow: hidden;
+}
+
+.blog::before {
+	content: "";
+	display: block;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160%;
+	height: 100%;
+	transform-origin: right top;
+	transform: skewX(-30deg) scaleX(0);
+	transition: transform 0.4s;
+}
+
+.blog:hover::before {
+	transform-origin: left top;
+	transform: skewX(-30deg) scaleX(1);
 }
 
 .blog p {
-	color: blue;
-	opacity: 0;
-	transition: 0.4s;
+	color: black;
+	position: relative;
+	z-index: 1;
 }
 
 .blog p:hover {
-	color: black;
+	color: #fdc86b;
 	opacity: 1;
 }
 
 h1 {
 	position: absolute;
-	right: 2px;
-	bottom: -60px;
+	left: 0px;
+	top: -70px;
 	font-weight: 900;
 	font-size: 45px;
 	font-family: 'Poppins', sans-serif;

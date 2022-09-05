@@ -219,7 +219,7 @@ header a {
 .introduce-c {
 	position: absolute;
 	left: 178px;
-	top: 182px;
+	top: 146px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 40px;
 }
@@ -227,7 +227,7 @@ header a {
 .c-imac {
 	position: absolute;
 	left: 160px;
-	top: 152px;
+	top: 123px;
 }
 
 
@@ -235,7 +235,7 @@ header a {
 	position: absolute;
 	width: 380px;
 	left: 900px;
-	top: 306px;
+	top: 271px;
 	font-family: 'Noto Sans';
 	font-size: 24px;
 }
@@ -243,5 +243,5 @@ header a {
 .git-btn2 {
 	position: absolute;
 	left: 900px;
-	top: 804px;
+	top: 774px;
 }

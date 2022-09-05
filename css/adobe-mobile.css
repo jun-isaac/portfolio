@@ -24,7 +24,7 @@ header a {
 	justify-content: center;
 	align-items: center;
 	color: #000;
-	background: #E2E2E2;
+	background: #ccc;
 }
 
 #title h1 {
@@ -73,41 +73,57 @@ header a {
 
 /* Introduce 영역 */
 
-.blog-box {
+.adobe-box {
 	position: relative;
 	margin: 0 auto;
-	height: 100vh;
+	height: 150vh;
 	width: 390px;
 }
 
 .introduce {
 	position: absolute;
-	top: 104px;
+	top: 100px;
 	left: 30px;
 	font-family: 'Poppins', sans-serif;
-	font-size: 24px;
+	font-size: 30px;
 }
 
-.blog-imac {
+.introduce2 {
 	position: absolute;
-	width: 300px;
-	top: 118px;
-	left: 45px;
-}
-
-.blog-box p {
-	position: absolute;
-	width: 330px;
+	top: 730px;
 	left: 30px;
-	top: 472px;
-
-	font-family: 'Noto Sans';
-	font-size: 14px;
-	line-height: 19px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
 }
 
-.git-btn1 {
+.photoshop-file1 {
+	width: 330px;
 	position: absolute;
-	left: 65px;
-	top: 668px;
+	top: 180px;
+	left: 30px;
+}
+
+
+.photoshop-file2 {
+	width: 330px;
+	position: absolute;
+	top: 810px;
+	left: 30px;
+}
+
+
+/* Illustrator */
+
+.vertical {
+	width: 330px;
+	position: absolute;
+	top: 180px;
+	left: 30px;
+}
+
+.horizontal {
+	width: 330px;
+	position: absolute;
+	top: 810px;
+	left: 30px;
 }

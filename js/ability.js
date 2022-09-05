@@ -41,3 +41,34 @@ makeChart(75, chart4, '#ffffff');
 makeChart(87, chart5, '#ffffff');
 makeChart(85, chart6, '#ffffff');
 makeChart(80, chart7, '#ffffff');
+
+
+function getValues(){
+  var matrix = $('.fp-scroller').css('transform').replace(/[^0-9\-.,]/g, '').split(',');
+  var x = matrix[12] || matrix[4];
+  var y = matrix[13] || matrix[5];
+  console.log(y)
+};
+
+getValues();
+
+// // 스크롤좌표값 구하기
+// $(function () {
+//   $(window).scroll(function () {
+//     // scrollposition이 현재 스크롤 좌표임
+//     let scrollposition = $(window).scrollTop();
+//     let Worksection = document.querySelector(".ability-box").offsetTop;
+
+//     // work
+//     $(window).on('scroll', function () {
+//       if ($('.fp-scroller').css(
+//           transform: 'translateY()'
+//         )) {
+//         replay();
+//       } else {
+
+//       };
+//     });
+
+//   });
+// });

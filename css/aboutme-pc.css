@@ -56,10 +56,17 @@ header a {
 .box {
 	position: relative;
 	width: 1000px;
-	height: 1746px;
-	margin: 130px auto 110px auto;
-	border: 3px solid #FFFFFF;
-	border-radius: 30px;
+	height: 822px;
+	margin: 0 auto;
+	/* border-radius: 30px; */
+}
+
+.b-box {
+	width: 100vw;
+	height: 822px;
+	margin: 0 auto;
+	border-top: 0.3px solid #FFFFFF;
+	border-bottom: 0.3px solid #FFFFFF;
 }
 
 .hello {
@@ -128,10 +135,17 @@ header a {
 
 /* ability 영역 */
 
+.box2 {
+	position: relative;
+	width: 1000px;
+	height: 822px;
+	margin: 0 auto;
+}
+
 .ability {
 	position: absolute;
 	left: 55px;
-	top: 930px;
+	top: 30px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 40px;
@@ -142,8 +156,8 @@ header a {
 	width: 890px;
 	height: 641px;
 	left: 55px;
-	top: 1050px;
-	border: 1px solid #FFFFFF;
+	top: 131px;
+	border: 0.1px solid #FFFFFF;
 }
 
 .photoshop-box {
@@ -152,7 +166,7 @@ header a {
 	height: 207px;
 	left: 10px;
 	top: 10px;
-	border: 1px solid #FFFFFF;
+	border: 0.1px solid #FFFFFF;
 }
 
 .photoshop-icon {
@@ -180,7 +194,7 @@ header a {
 	height: 207px;
 	left: 300px;
 	top: 10px;
-	border: 1px solid #FFFFFF;
+	border: 0.1px solid #FFFFFF;
 }
 
 .illustrator-box p {
@@ -209,7 +223,7 @@ header a {
 	height: 207px;
 	right: 10px;
 	top: 10px;
-	border: 1px solid #FFFFFF;
+	border: 0.1px solid #FFFFFF;
 }
 
 .final-cut-box p {
@@ -241,7 +255,7 @@ header a {
 	height: 207px;
 	left: 10px;
 	top: 217px;
-	border: 1px solid #FFFFFF;
+	border: 0.1px solid #FFFFFF;
 }
 
 .figma-icon {
@@ -270,7 +284,7 @@ header a {
 	height: 207px;
 	left: 300px;
 	top: 217px;
-	border: 1px solid #FFFFFF;
+	border: 0.1px solid #FFFFFF;
 }
 
 .html-box p {
@@ -299,7 +313,7 @@ header a {
 	height: 207px;
 	right: 10px;
 	top: 217px;
-	border: 1px solid #FFFFFF;
+	border: 0.1px solid #FFFFFF;
 }
 
 .css-box p {
@@ -328,7 +342,7 @@ header a {
 	height: 207px;
 	left: 10px;
 	bottom: 10px;
-	border: 1px solid #FFFFFF;
+	border: 0.1px solid #FFFFFF;
 }
 
 .js-box p {
@@ -399,20 +413,27 @@ span.center {
 
 /* personality 영역 */
 
+.personality-b-box {
+	width: 100vw;
+	height: 822px;
+	margin: 0 auto;
+	top: 15px;
+	border-top: 0.3px solid #FFFFFF;
+	border-bottom: 0.3px solid #FFFFFF;
+	/* border-radius: 30px; */
+}
+
 .personality-box {
 	position: relative;
 	width: 1000px;
 	height: 900px;
 	margin: 0 auto;
-	top: 15px;
-	border: 3px solid #FFFFFF;
-	border-radius: 30px;
 }
 
 .personality {
 	position: absolute;
 	left: 55px;
-	top: 100px;
+	top: 50px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 40px;
 }
@@ -420,7 +441,7 @@ span.center {
 .mbti {
 	position: absolute;
 	left: 55px;
-	top: 256px;
+	top: 186px;
 	font-family: 'Noto Sans';
 	font-weight: 500;
 	font-size: 40px;
@@ -429,7 +450,7 @@ span.center {
 .mgram {
 	position: absolute;
 	left: 483px;
-	top: 256px;
+	top: 186px;
 	font-family: 'Noto Sans';
 	font-weight: 500;
 	font-size: 40px;
@@ -438,7 +459,7 @@ span.center {
 .entp {
 	position: absolute;
 	left: 214px;
-	top: 367px;
+	top: 297px;
 	font-family: 'Noto Sans';
 	font-weight: 500;
 	font-size: 30px;
@@ -453,55 +474,55 @@ span.center {
 .e {
 	position: absolute;
 	left: 58px;
-	top: 470px;
+	top: 400px;
 }
 
 .i {
 	position: absolute;
 	left: 433px;
-	top: 470px;
+	top: 400px;
 }
 
 .n {
 	position: absolute;
 	left: 55px;
-	top: 576px;
+	top: 506px;
 }
 
 .s {
 	position: absolute;
 	left: 431px;
-	top: 576px;
+	top: 506px;
 }
 
 .f {
 	position: absolute;
 	left: 430px;
-	top: 682px;
+	top: 612px;
 }
 
 .t {
 	position: absolute;
 	left: 58px;
-	top: 682px;
+	top: 612px;
 }
 
 .p {
 	position: absolute;
 	left: 428px;
-	top: 788px;
+	top: 718px;
 }
 
 .j {
 	position: absolute;
 	left: 63px;
-	top: 788px;
+	top: 718px;
 }
 
 .mgram-img {
 	position: absolute;
 	right: 52px;
-	bottom: 71px;
+	bottom: 141px;
 }
 
 .mbti-bar1 {
@@ -509,7 +530,7 @@ span.center {
 	width: 330px;
 	height: 30px;
 	left: 90px;
-	top: 476px;
+	top: 406px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
 }
@@ -519,8 +540,7 @@ span.center {
 	width: 188.65px;
 	height: 30px;
 	left: 90px;
-	top: 476px;
-
+	top: 406px;
 	background: #FFFFFF;
 	border-radius: 50px 0px 0px 50px;
 }
@@ -530,7 +550,7 @@ span.center {
 	width: 330px;
 	height: 30px;
 	left: 90px;
-	top: 582px;
+	top: 512px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
 }
@@ -540,8 +560,7 @@ span.center {
 	width: 232.72px;
 	height: 30px;
 	left: 90px;
-	top: 582px;
-
+	top: 512px;
 	background: #FFFFFF;
 	border-radius: 50px 0px 0px 50px;
 }
@@ -551,7 +570,7 @@ span.center {
 	width: 330px;
 	height: 30px;
 	left: 90px;
-	top: 688px;
+	top: 618px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
 }
@@ -561,7 +580,7 @@ span.center {
 	width: 283.78px;
 	height: 30px;
 	left: 136px;
-	top: 688px;
+	top: 618px;
 	background: #FFFFFF;
 	border-radius: 0px 50px 50px 0px;
 }
@@ -571,7 +590,7 @@ span.center {
 	width: 330px;
 	height: 30px;
 	left: 90px;
-	top: 794px;
+	top: 724px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
 }
@@ -581,7 +600,7 @@ span.center {
 	width: 174.67px;
 	height: 30px;
 	left: 245px;
-	top: 794px;
+	top: 724px;
 	background: #FFFFFF;
 	border-radius: 0px 50px 50px 0px;
 }

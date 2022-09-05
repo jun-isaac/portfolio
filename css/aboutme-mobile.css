@@ -69,7 +69,8 @@ header a {
 .box {
 	position: relative;
 	width: 390px;
-	height: 2646px;
+	height: 100vh;
+	margin: 0 auto;
 }
 
 .hello {
@@ -142,10 +143,17 @@ header a {
 
 /* ability 영역 */
 
+.box2 {
+	position: relative;
+	width: 390px;
+	height: 210vh;
+	margin: 0 auto;
+}
+
 .ability {
 	position: absolute;
 	left: 30px;
-	top: 914px;
+	top: 70px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
@@ -156,7 +164,7 @@ header a {
 	width: 330px;
 	height: 1483px;
 	left: 30px;
-	top: 1050px;
+	top: 140px;
 	border: 1px solid #FFFFFF;
 }
 
@@ -370,28 +378,28 @@ header a {
 /* ability 차트 영역 */
 
 .chart {
-  position: absolute;
-  width: 75px;
-  height: 75px;
+	position: absolute;
+	width: 75px;
+	height: 75px;
 	top: 18px;
 	right: 45px;
-  border-radius: 50%;
-  transition: 0.3s;
+	border-radius: 50%;
+	transition: 0.3s;
 }
 
 span.center {
-  background: #1E3799;
-  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 65px;
-  font-size: 18px;
-  transform: translate(-50%, -50%);
+	background: #1E3799;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 65px;
+	font-size: 18px;
+	transform: translate(-50%, -50%);
 	font-family: 'Poppins', sans-serif;
 	/* 가운데 위 */
 }
@@ -427,7 +435,7 @@ span.center {
 .personality {
 	position: absolute;
 	left: 30px;
-	top: 30px;
+	top: 70px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 24px;
 }
@@ -435,7 +443,7 @@ span.center {
 .mbti {
 	position: absolute;
 	left: 30px;
-	top: 140px;
+	top: 180px;
 	font-family: 'Noto Sans';
 	font-weight: 500;
 	font-size: 25px;
@@ -453,7 +461,7 @@ span.center {
 .entp {
 	position: absolute;
 	left: 165px;
-	top: 200px;
+	top: 240px;
 	font-family: 'Noto Sans';
 	font-weight: 500;
 	font-size: 24px;
@@ -468,49 +476,49 @@ span.center {
 .e {
 	position: absolute;
 	left: 29px;
-	top: 275px;
+	top: 315px;
 }
 
 .i {
 	position: absolute;
 	left: 354px;
-	top: 275px;
+	top: 315px;
 }
 
 .n {
 	position: absolute;
 	left: 27px;
-	top: 383px;
+	top: 423px;
 }
 
 .s {
 	position: absolute;
 	left: 351px;
-	top: 383px;
+	top: 423px;
 }
 
 .f {
 	position: absolute;
 	left: 351px;
-	top: 489px;
+	top: 529px;
 }
 
 .t {
 	position: absolute;
 	left: 29px;
-	top: 489px;
+	top: 529px;
 }
 
 .p {
 	position: absolute;
 	left: 349px;
-	top: 595px;
+	top: 635px;
 }
 
 .j {
 	position: absolute;
 	left: 33px;
-	top: 595px;
+	top: 635px;
 }
 
 .mgram-img {
@@ -526,7 +534,7 @@ span.center {
 	width: 244px;
 	height: 24px;
 	left: 78px;
-	top: 280px;
+	top: 320px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
 }
@@ -536,7 +544,7 @@ span.center {
 	width: 139px;
 	height: 24px;
 	left: 78px;
-	top: 280px;
+	top: 320px;
 
 	background: #FFFFFF;
 	border-radius: 50px 0px 0px 50px;
@@ -547,7 +555,7 @@ span.center {
 	width: 244px;
 	height: 24px;
 	left: 78px;
-	top: 383px;
+	top: 423px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
 }
@@ -557,7 +565,7 @@ span.center {
 	width: 172px;
 	height: 24px;
 	left: 78px;
-	top: 383px;
+	top: 423px;
 
 	background: #FFFFFF;
 	border-radius: 50px 0px 0px 50px;
@@ -568,7 +576,7 @@ span.center {
 	width: 244px;
 	height: 24px;
 	left: 78px;
-	top: 489px;
+	top: 529px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
 }
@@ -578,7 +586,7 @@ span.center {
 	width: 211px;
 	height: 24px;
 	left: 111px;
-	top: 489px;
+	top: 529px;
 	background: #FFFFFF;
 	border-radius: 0px 50px 50px 0px;
 }
@@ -588,7 +596,7 @@ span.center {
 	width: 244px;
 	height: 24px;
 	left: 78px;
-	top: 600px;
+	top: 640px;
 	border: 2px solid #FFFFFF;
 	border-radius: 50px;
 }
@@ -598,7 +606,7 @@ span.center {
 	width: 132px;
 	height: 24px;
 	left: 190px;
-	top: 600px;
+	top: 640px;
 	background: #FFFFFF;
 	border-radius: 0px 50px 50px 0px;
 }
