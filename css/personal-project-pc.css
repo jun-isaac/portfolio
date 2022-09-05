@@ -72,6 +72,36 @@ header a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
+	position: relative;
+	transition: color 0.4s;
+}
+
+#git-btn:hover {
+	color: black;
+}
+
+#git-btn::before {
+	content: "";
+	display: block;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120%;
+	height: 100%;
+	transform-origin: right top;
+	transform: skewX(-30deg) scaleX(0);
+	transition: transform 0.4s;
+}
+#git-btn:hover::before {
+	transform-origin: left top;
+	transform: skewX(-30deg) scaleX(1);
+}
+
+#git-btn span {
+	position: relative;
+	z-index: 1;
 }
 
 
@@ -213,5 +243,5 @@ header a {
 .git-btn2 {
 	position: absolute;
 	left: 900px;
-	top: 784px;
+	top: 804px;
 }

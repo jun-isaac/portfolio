@@ -61,17 +61,47 @@ header a {
 	position: absolute;
 	width: 260px;
 	height: 73px;
-	border: 2px solid #000000;
+	border: 2px solid black;
 	border-radius: 50px;
 
 	font-family: 'Noto Sans';
 	font-weight: 500;
 	font-size: 24px;
 	line-height: 33px;
-	color: #000000;
+	color: black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
+	position: relative;
+	transition: color 0.4s;
+}
+
+#git-btn:hover {
+	color: #FFFFFF;
+}
+
+#git-btn::before {
+	content: "";
+	display: block;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120%;
+	height: 100%;
+	transform-origin: right top;
+	transform: skewX(-30deg) scaleX(0);
+	transition: transform 0.4s;
+}
+#git-btn:hover::before {
+	transform-origin: left top;
+	transform: skewX(-30deg) scaleX(1);
+}
+
+#git-btn span {
+	position: relative;
+	z-index: 1;
 }
 
 
@@ -102,7 +132,7 @@ header a {
 	position: absolute;
 	width: 380px;
 	left: 900px;
-	top: 327px;
+	top: 307px;
 
 	font-family: 'Noto Sans';
 	font-style: normal;
@@ -114,5 +144,5 @@ header a {
 .git-btn1 {
 	position: absolute;
 	left: 900px;
-	top: 784px;
+	top: 804px;
 }

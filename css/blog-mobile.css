@@ -76,7 +76,7 @@ header a {
 
 .introduce {
 	position: absolute;
-	top: 104px;
+	top: 84px;
 	left: 30px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 24px;
@@ -85,7 +85,7 @@ header a {
 .blog-imac {
 	position: absolute;
 	width: 300px;
-	top: 118px;
+	top: 98px;
 	left: 45px;
 }
 
@@ -93,7 +93,7 @@ header a {
 	position: absolute;
 	width: 330px;
 	left: 30px;
-	top: 472px;
+	top: 452px;
 
 	font-family: 'Noto Sans';
 	font-size: 14px;
@@ -103,5 +103,5 @@ header a {
 .git-btn1 {
 	position: absolute;
 	left: 65px;
-	top: 668px;
+	top: 708px;
 }

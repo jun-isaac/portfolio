@@ -72,6 +72,36 @@ header a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
+	position: relative;
+	transition: color 0.4s;
+}
+
+#git-btn:hover {
+	color: black;
+}
+
+#git-btn::before {
+	content: "";
+	display: block;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120%;
+	height: 100%;
+	transform-origin: right top;
+	transform: skewX(-30deg) scaleX(0);
+	transition: transform 0.4s;
+}
+#git-btn:hover::before {
+	transform-origin: left top;
+	transform: skewX(-30deg) scaleX(1);
+}
+
+#git-btn span {
+	position: relative;
+	z-index: 1;
 }
 
 
@@ -128,7 +158,7 @@ header a {
 
 .sitemap {
 	position: absolute;
-	top: 146px;
+	top: 116px;
 	left: 184px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 40px;
@@ -137,7 +167,7 @@ header a {
 .m-imac {
 	position: absolute;
 	left: 261px;
-	top: 41px;
+	top: 1px;
 }
 
 /* figma 영역 */
@@ -255,7 +285,7 @@ header a {
 .introduce-r {
 	position: absolute;
 	left: 178px;
-	top: 176px;
+	top: 146px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 40px;
 }
@@ -263,20 +293,20 @@ header a {
 .r-imac {
 	position: absolute;
 	left: 160px;
-	top: 153px;
+	top: 123px;
 }
 
 .r-iphone {
 	position: absolute;
 	left: 160px;
-	top: 624px;
+	top: 594px;
 }
 
 .introduce-r-box p {
 	position: absolute;
 	width: 380px;
 	left: 900px;
-	top: 321px;
+	top: 271px;
 	font-family: 'Noto Sans';
 	font-size: 24px;
 
@@ -285,5 +315,5 @@ header a {
 .git-btn2 {
 	position: absolute;
 	left: 900px;
-	top: 808px;
+	top: 838px;
 }

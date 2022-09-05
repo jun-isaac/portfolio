@@ -84,7 +84,7 @@ header a {
 
 .introduce {
 	position: absolute;
-	top: 103px;
+	top: 73px;
 	left: 30px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 24px;
@@ -93,7 +93,7 @@ header a {
 .i-imac {
 	position: absolute;
 	width: 300px;
-	top: 117px;
+	top: 87px;
 	left: 45px;
 }
 
@@ -101,7 +101,7 @@ header a {
 	position: absolute;
 	width: 330px;
 	left: 30px;
-	top: 471px;
+	top: 441px;
 
 	font-family: 'Noto Sans';
 	font-size: 14px;
@@ -188,7 +188,7 @@ header a {
 .introduce-c {
 	position: absolute;
 	left: 30px;
-	top: 103px;
+	top: 73px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 24px;
 }
@@ -197,7 +197,7 @@ header a {
 	position: absolute;
 	width: 300px;
 	left: 45px;
-	top: 117px;
+	top: 87px;
 }
 
 
@@ -205,7 +205,7 @@ header a {
 	position: absolute;
 	width: 330px;
 	left: 30px;
-	top: 471px;
+	top: 441px;
 	font-family: 'Noto Sans';
 	font-size: 14px;
 }
@@ -213,5 +213,5 @@ header a {
 .git-btn2 {
 	position: absolute;
 	left: 65px;
-	top: 667px;
+	top: 677px;
 }
