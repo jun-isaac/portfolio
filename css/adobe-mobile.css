@@ -1,7 +1,7 @@
 header {
 	position: fixed;
 	/* background: #ccc; */
-	width: 100vw;
+	width: 390px;
 	padding: 20px;
 	text-align: center;
 	z-index: 999;
@@ -76,7 +76,7 @@ header a {
 .adobe-box {
 	position: relative;
 	margin: 0 auto;
-	height: 150vh;
+	height: 1266px;
 	width: 390px;
 }
 

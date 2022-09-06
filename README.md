@@ -85,8 +85,15 @@ https://jun-isaac.github.io/portfolio/
 
 * div 내부 요소들에 AOS 기능을 넣었다.
 
+
 <br><br>
 
+----
+
+### ❌ 하단 AOS 해결 되지 않음
+* 데스크탑에서 본 모바일화면에서만 해결이 되었고 스마트폰으로 보면 해결이 되지 않았다.
+
+
 ## 사용 라이브러리
-|jQuery|AOS|
-|---|---|
+|jQuery|AOS|fullpage|
+|---|---|---|

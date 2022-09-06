@@ -1,7 +1,7 @@
 header {
 	position: fixed;
 	/* background: #ccc; */
-	width: 100vw;
+	width: 390vw;
 	padding: 20px;
 	text-align: center;
 	z-index: 999;
@@ -71,7 +71,7 @@ header a {
 .movie-box {
 	position: relative;
 	margin: 0 auto;
-	height: 100vh;
+	height: 844px;
 	width: 390px;
 }
 
