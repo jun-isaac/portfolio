@@ -22,6 +22,8 @@ https://jun-isaac.github.io/portfolio/
 ------------------
 ## 💻 메인페이지
 
+<img src="images/main.gif" width="850">
+
 ------------------
 ## 📕 배운 것
 
