@@ -96,6 +96,8 @@ https://jun-isaac.github.io/portfolio/
 * height 크기를 vh로 잡다보니 AOS랑 겹치면서 공백이 생긴듯 하다. height를 vh가 아닌 px로 고정해서 잡으니 문제가 해결 되었다.
 
 
+<br><br><br>
+
 ### ❌ jQuery로 Notion을 불러오니 기존의 CSS와 충돌
 * 기존에 만들어 놓은 CSS가 있어서 충돌이 일어났다.
 
