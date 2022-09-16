@@ -17,17 +17,17 @@
 	<!-- reset.css(공통) -->
 	<link rel="stylesheet" href="../css/reset.css">
 	<!-- mobile.css: 390px까지 (모바일) -->
-	<link rel="stylesheet" href="../css/final-cut-mobile.css" media="screen and (max-width: 390px)">
+	<link rel="stylesheet" href="../css/notion-mobile.css" media="screen and (max-width: 390px)">
 	<!-- pc.css: 391px 부터 (큰 화면) - Breakpoint(중단점) -->
-	<link rel="stylesheet" href="../css/final-cut-pc.css" media="screen and (min-width: 391px)">
+	<link rel="stylesheet" href="../css/notion-pc.css" media="screen and (min-width: 391px)">
 </head>
 
 <body>
 	<header>
 		<ul id="menu">
 			<li class="active"><a class="nav-aboutme" href="../index.html">Home</a></li>
-			<li data-menuanchor="firstPage" class="active"><a class="nav-aboutme" href="#firstPage">Final Cut</a></li>
-			<li data-menuanchor="secondPage"><a class="nav-introduce" href="#secondPage">Movie</a></li>
+			<li data-menuanchor="firstPage" class="active"><a class="nav-aboutme" href="#firstPage">Notion</a></li>
+			<li data-menuanchor="secondPage"><a class="nav-introduce" href="#secondPage">Note</a></li>
 		</ul>
 	</header>
 
@@ -36,15 +36,16 @@
 			<img src="../images/home-icon.png" alt="home-icon">
 		</div>
 	</a>
-	
-	<div id="fullpage" class="final-cut">
+
+	<div id="fullpage" class="Notion">
 		<div class="section" id="title">
-			<h1>Final Cut</h1>
+			<h1>Notion</h1>
 		</div>
 
-		<div class="section" id="Movie">
-			<div class="movie-box">
-				<h2 class="movie" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">Movie</h2>
+		<div class="section" id="notion">
+			<div class="notion-box">
+				<iframe id="notion" src="../sub-page/notion-source.html" width="90%" height="70%" style="border:none; border-radius: 20px;">
+				</iframe>
 			</div>
 			<!-- blog-box -->
 		</div>

@@ -124,13 +124,13 @@ div {
 	opacity: 1;
 }
 
-.finalcut {
+.notion {
 	background: #FA983A;
 	position: relative;
 	overflow: hidden;
 }
 
-.finalcut::before {
+.notion::before {
 	content: "";
 	display: block;
 	background-color: #ffffff;
@@ -144,18 +144,18 @@ div {
 	transition: transform 0.4s;
 }
 
-.finalcut:hover::before {
+.notion:hover::before {
 	transform-origin: left top;
 	transform: skewX(-30deg) scaleX(1);
 }
 
-.finalcut p {
+.notion p {
 	color: black;
 	position: relative;
 	z-index: 1;
 }
 
-.finalcut p:hover {
+.notion p:hover {
 	color: #FA983A;
 	opacity: 1;
 }

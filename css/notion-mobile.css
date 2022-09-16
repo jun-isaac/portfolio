@@ -68,20 +68,20 @@ header a {
 
 /* Introduce 영역 */
 
-.movie-box {
+.notion-box {
 	position: relative;
 	margin: 0 auto;
 	height: 844px;
 	width: 390px;
 }
 
-.movie {
+/* .movie {
 	position: absolute;
 	top: 104px;
 	left: 30px;
 	font-family: 'Poppins', sans-serif;
 	font-size: 24px;
-}
+} */
 
 .blog-imac {
 	position: absolute;
@@ -90,7 +90,7 @@ header a {
 	left: 45px;
 }
 
-.movie-box p {
+.notion-box p {
 	position: absolute;
 	width: 330px;
 	left: 30px;
@@ -105,4 +105,10 @@ header a {
 	position: absolute;
 	left: 65px;
 	top: 668px;
+}
+
+.notion-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
