@@ -366,6 +366,39 @@ header a {
 }
 
 
+.notion-box {
+	position: absolute;
+	width: 290px;
+	height: 207px;
+	left: 300px;
+	bottom: 10px;
+	border: 0.1px solid #FFFFFF;
+}
+
+.notion-box p {
+	position: absolute;
+	width: 260px;
+	height: 75px;
+	left: 15px;
+	top: 130px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.notion-icon {
+	position: absolute;
+	left: 45px;
+	top: 24px;
+	width: 75px;
+}
+
+
+
+
 /* ability 차트 영역 */
 
 .chart {

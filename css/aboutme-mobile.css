@@ -146,7 +146,7 @@ header a {
 .box2 {
 	position: relative;
 	width: 390px;
-	height: 2616px;
+	height: 2016px;
 	margin: 0 auto;
 }
 
@@ -162,7 +162,7 @@ header a {
 .ability-box {
 	position: absolute;
 	width: 330px;
-	height: 1483px;
+	height: 1689px;
 	left: 30px;
 	top: 140px;
 	border: 1px solid #FFFFFF;
@@ -254,7 +254,6 @@ header a {
 	left: 45px;
 	top: 27px;
 }
-
 
 
 
@@ -372,6 +371,37 @@ header a {
 	position: absolute;
 	left: 45px;
 	top: 27px;
+}
+
+
+.notion-box {
+	position: absolute;
+	width: 290px;
+	height: 207px;
+	left: 20px;
+	top: 1462px;
+	border: 1px solid #FFFFFF;
+}
+
+.notion-box p {
+	position: absolute;
+	width: 260px;
+	height: 75px;
+	left: 15px;
+	top: 116px;
+
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.notion-icon {
+	position: absolute;
+	left: 42px;
+	top: 20px;
+	width: 75px;
 }
 
 
