@@ -36,6 +36,7 @@ const chart5 = document.querySelector('.doughnut5');
 const chart6 = document.querySelector('.doughnut6');
 const chart7 = document.querySelector('.doughnut7');
 const chart8 = document.querySelector('.doughnut8');
+const chart9 = document.querySelector('.doughnut9');
 
 const makeChart = (percent, classname, color) => {
   let i = 1;
@@ -62,5 +63,6 @@ const replay = () => {
   makeChart(87, chart5, '#ffffff');
   makeChart(85, chart6, '#ffffff');
   makeChart(80, chart7, '#ffffff');
-  makeChart(65, chart8, '#ffffff');
+  makeChart(63, chart8, '#ffffff');
+  makeChart(67, chart9, '#ffffff');
 }
