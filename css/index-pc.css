@@ -277,3 +277,17 @@ h1 {
 	font-size: 45px;
 	font-family: 'Poppins', sans-serif;
 }
+
+.github:hover h1 {
+	display: none;
+}
+
+.github:hover:before {
+	content: "Git-hub";
+	position: absolute;
+	left: 0px;
+	top: -70px;
+	font-weight: 900;
+	font-size: 45px;
+	font-family: 'Poppins', sans-serif;
+}
