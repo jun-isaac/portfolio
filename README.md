@@ -8,7 +8,6 @@ https://jun-isaac.github.io/portfolio/
 
 - [x] 메뉴창에 마우스 오버시 메뉴 이름 나옴
 - [x] 헤더 클릭시 그에 맞는 section으로 이동
-- [ ] MBTI 스크롤 감지해서 그래프 작동
 - [x] ability 메뉴 스크롤 감지해서 그래프 작동 / 버튼 누를시 동작으로 대체
 - [x] 모바일에서 스크롤시 AOS 라이브러리 동작
 
